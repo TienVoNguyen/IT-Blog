@@ -28,8 +28,8 @@ published: true
   Để chạy các tệp Java trên máy tính của bạn, bạn cần cài đặt Java Runtime Environment (JRE) để có thể mở và chạy các tệp .jar. Thời gian chạy Java là các gói nhỏ được viết bằng Java thường hoạt động với trình duyệt hoặc ứng dụng để thực hiện một tác vụ như phát video.
 
 ## [](#header-2)2. Làm thế nào để tạo file jar từ chính project java của bạn?
+[![Video hướng dẫn](https://img.youtube.com/vi/RdDHfaX9Co8/maxresdefault.jpg)](https://www.youtube.com/watch?v=RdDHfaX9Co8)
 
-{@youtube: https://www.youtube.com/watch?v=RdDHfaX9Co8}
 
 ### [](#header-4)B1.  Tìm đến đường dẫn file.
 
