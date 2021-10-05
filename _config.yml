@@ -1,11 +1,11 @@
-title: Hacker-Blog
+title: IT-Blog
 description: "Trang Blog Cho Người Mới Bắt Đầu Học Code "
 author:
-  name: "Hacker-blog"
+  name: "IT-Blog"
   email: "vontph18623@fpt.edu.vn"
-  url: "https://vontph18623.github.io/Hacker-Blog.97/"
+  url: "https://vontph18623.github.io/Blog-IT/"
 
-baseurl: /
+baseurl: https://vontph18623.github.io/Blog-IT/
 
 source: .
 destination: ./_site
