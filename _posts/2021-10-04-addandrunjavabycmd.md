@@ -33,28 +33,28 @@ published: true
 
   Đầu tiên để tạo được 1 file jar từ project java bạn cần phải tìm đến đường dẫn của project đó. Sau đó, tìm tới thư mục chứa các file java của project đó. 
 
-     ```
-     VD: "C:\Users\Dinh Van\Documents\NetBeansProjects\Lab2\src\bai12"
-     ```
+```
+  VD:"C:\Users\DinhVan\Documents\NetBeansProjects\Lab2\src\bai12"
+```
 
-      ![duongdanjava](https://user-images.githubusercontent.com/91824682/135866692-787ef027-55c8-42e6-9942-fdcb01431ed5.PNG)
+  ![duongdanjava](https://user-images.githubusercontent.com/91824682/135866692-787ef027-55c8-42e6-9942-fdcb01431ed5.PNG)
 
 ### [](#header-4)B2.  Tạo thư mục META-INF và file MANIFEST.MF
 
   Tại thư mục chứa package có các file java tạo một thư mục
   mới tên META-INF. Trong thư mục META-INF tạo một file txt tên MANIFEST.
 
-    ```
-     VD : Thư mục META-INF cùng cấp với bai12 mà tôi định tạo file jar.
-    ```
+```
+  VD : Thư mục META-INF cùng cấp với bai12 mà tôi định tạo file jar.
+```
 
   ![thumucchuaMETA-INF](https://user-images.githubusercontent.com/91824682/135870259-30839a01-a289-4e0d-b2a9-2661baf1987c.PNG)
      
   Trong file MANIFEST vừa tạo viết: “Main-Class: [Tên package chứa class main].(Tên class main chạy chương trình)”, nếu main class không  trong package nào thì chỉ cần viết  “Main-Class: (Tên class main chạy chương trình)” + Enter xuống 1 dòng. 
 
-    ```
-     VD : "Main-Class: bai12.StaffFrom"
-    ```
+```
+  VD : "Main-Class: bai12.StaffFrom"
+```
 
   ![manifestmf](https://user-images.githubusercontent.com/91824682/135866688-af1f7331-5e68-47fe-b90e-54e7885cb8b1.png)
  
@@ -80,17 +80,17 @@ published: true
 
   Gõ lệnh “javac –encoding UTF8 (tên package).*java”. Dòng lệnh này sẽ biên dịch tất cả các file java có trong package của bạn. “-encoding UTF8” sẽ bảo đảm rằng khi dịch chương trình sẽ không lỗi front chữ. Lưu ý: nếu bạn có nhiều package trong chương trình chỉ cần thêm vào lần lượt sau dấu cách.
  
-    ```
-    VD: "jar cvfm bai1.jar META-INF\MANIFEST.MF bai12\*.java img"
-    ```
+```
+  VD: "jar cvfm bai1.jar META-INF\MANIFEST.MF bai12\*.java img"
+```
 
   ![2](https://user-images.githubusercontent.com/91824682/135866075-f2098031-06d3-4af4-ae59-b2d655c0d35d.png)
     
   Gõ lệnh “jar cvfm (tên file jar bạn muốn).jar META-INF\MANIFEST.MF (tên package)\*.class”. dòng lệnh này sẽ gom tất cả các file .class vừa được dịch ở trên vào file .jar của bạn và chỉ đinh main class khi bạn chạy chương trình từ file .MF. Lưu ý: nếu bạn có nhiều package, thư mục chứa hình ảnh, video sử dụng trong chương trình chỉ cần thêm lần lượt vào sau dấu cách.
 
-    ```
-    VD: "jar cvfm bai1.jar META-INF\MANIFEST.MF bai12\*.class img"
-   ```
+```
+  VD: "jar cvfm bai1.jar META-INF\MANIFEST.MF bai12\*.class img"
+```
 
   ![3](https://user-images.githubusercontent.com/91824682/135866112-6f61fcaa-aa6b-4037-a7c4-0fa3d6c44c5b.PNG)
      
@@ -98,9 +98,9 @@ published: true
 
   Gõ lệnh: “java –jar <tên file jar>.jar” + ENTER
  
-    ```
-    VD: "java -jar bai1.jar"
-    ```
+```
+  VD: "java -jar bai1.jar"
+```
 
   ![4](https://user-images.githubusercontent.com/91824682/135866115-5c9e2bad-648c-4b22-a9e1-9d7bdcc7329b.PNG)
       
