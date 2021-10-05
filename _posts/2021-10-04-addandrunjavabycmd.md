@@ -108,9 +108,11 @@ published: true
     
   ![loi](https://user-images.githubusercontent.com/91824682/135866124-17d6350f-3580-4ca8-ac5e-dea6579d376d.PNG)
 
+  Nguồn tham khảo: ![tutorialspoin](https://www.tutorialspoint.com/How-to-run-a-java-program)
+  ![Khiet Nguyen Van](https://youtu.be/p19toyYBVpQ)
+  ![stackoverflow](https://stackoverflow.com/questions/16137713/how-do-i-run-a-java-program-from-the-command-line-on-windows)
 ```
 Nếu thấy hay hãy chia sẻ để mọi người cùng biết
 Nếu bạn có cách nào hay hơn hãy cho chúng tôi biết.
-Đây là những dòng sau cùng của bài viết. 
-Cảm ơn vì đã ghé thăm. Chúc các bạn thành công.
+ Cảm ơn vì đã ghé thăm. Chúc các bạn thành công.
 ```
