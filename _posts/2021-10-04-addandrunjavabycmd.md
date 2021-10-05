@@ -29,6 +29,8 @@ published: true
 
 ## [](#header-2)2. Làm thế nào để tạo file jar từ chính project java của bạn?
 
+{@youtube: https://www.youtube.com/watch?v=RdDHfaX9Co8}
+
 ### [](#header-4)B1.  Tìm đến đường dẫn file.
 
   Đầu tiên để tạo được 1 file jar từ project java bạn cần phải tìm đến đường dẫn của project đó. Sau đó, tìm tới thư mục chứa các file java của project đó. 
