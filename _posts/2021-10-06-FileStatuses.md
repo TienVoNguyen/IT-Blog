@@ -14,7 +14,7 @@ published: true
 
  Thông thường ta cần kết hợp với một dịch vụ lưu trữ mã nguồn trực tuyến như Github (repo chính), tại đây các thành viên sẽ dùng lệnh để đẩy dữ liệu từ máy tính của cá nhân họ lên Github, điều này hoàn toàn an toàn và bảo mật bởi mỗi repo của các lập trình viên đều là bản sao thật của repo trên github, vì vậy khi server bị down thì các thành viên vẫn có mã nguồn backup trên máy tính của họ.
 
- # 2. Các trạng thái của file.
+# 2. Các trạng thái của file.
 
 ![4](https://user-images.githubusercontent.com/91824682/136139024-5d1362fd-21e6-4062-8e59-ef2175f15dd4.PNG)
 
@@ -39,15 +39,15 @@ Khi chúng ta sử dụng lệnh “git status” thì các file này sẽ có t
 
 Trong các Tracked Files được git theo dõi lại có 3 trạng thái sau: committed, modified, và staged.
 
-* **Modified** có nghĩa là bạn đã thay đổi tập tin nhưng chưa commit vào cơ sở dữ liệu, tức là bạn chưa sử dụng lênh **git add** và **git commit**.
+* **Modified** có nghĩa là bạn đã thay đổi tập tin nhưng chưa commit vào cơ sở dữ liệu, tức là bạn chưa sử dụng lệnh **git add** và **git commit**.
 
->Các files bị thay đổi sẽ có title **“Changes not staged for commit”** khi chúng ta **“git status"**.
+>Các files bị thay đổi sẽ có title **“<span style="color: red;">Changes not staged for commit</span>”** khi chúng ta **“git status"**.
 
 ![2](https://user-images.githubusercontent.com/91824682/136137884-b523817c-70c9-4c6e-a508-91641fcfbcd9.PNG)
 
-* **Staged** là bạn đã đánh dấu sẽ commit phiên bản hiện tại của một tập tin đã chỉnh sửa trong lần commit sắp tới. Trạng thái này xảy ra khi bạn sử dụng lệnh git add <file_name> nhưng chưa commit.
+* **Staged** là bạn đã đánh dấu sẽ commit phiên bản hiện tại của một tập tin đã chỉnh sửa trong lần commit sắp tới. Trạng thái này xảy ra khi bạn sử dụng lệnh git add \<file_name> nhưng chưa commit.
 
-> Các files bị thay đổi sẽ có title “Changes to be committed” khi chúng ta **“git status”**.
+> Các files bị thay đổi sẽ có title “<span style="color: rgb(5, 255, 80);">Changes to be committed</span>” khi chúng ta **“git status”**.
 
 ![3](https://user-images.githubusercontent.com/91824682/136138383-b7bfdee3-3046-473c-9c9a-e6b9d3b7f767.PNG)
 
