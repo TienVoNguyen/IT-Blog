@@ -3,7 +3,7 @@ title: Các trạng thái file trong git và github
 published: true
 ---
 
-**Bài viết được tham khảo trên git-scm.com, [freetuts](https://freetuts.net/git-ba-trang-thai-committed-staged-modified-1079.html),[The Brown Box](https://hoangvancong.com/2020/05/01/git-03-cac-trang-thai-va-cau-lenh-co-ban-trong-git/)**
+**Bài viết được tham khảo trên [git-scm.com](git-scm.com), [freetuts](https://freetuts.net/git-ba-trang-thai-committed-staged-modified-1079.html),[The Brown Box](https://hoangvancong.com/2020/05/01/git-03-cac-trang-thai-va-cau-lenh-co-ban-trong-git/)**
 # 1. Git là gì?
 
  *Đầu tiên để biết được các trạng thái của file trong Git các bạn phỉa biết Git là gì* 
