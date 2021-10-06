@@ -14,11 +14,11 @@ $blockquote-border: $dove-grey !default;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background  0 0;
+  background: $body-background url("../assets/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* General & 'Reset' Stuff */
@@ -140,9 +140,9 @@ dt {
   font-weight: bold;
 }
 
-ul li {
-  list-style-image:url('../assets/bullet.png');
-}
+// ul li {
+//   list-style-image:url('../assets/bullet.png');
+// }
 
 blockquote {
   color: $blockquote-color;
