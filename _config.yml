@@ -30,3 +30,5 @@ plugins:
 # Custom variables
 owner : "Nguyen Tien Vo"
 year : "2021"
+
+theme: jekyll-theme-architect
