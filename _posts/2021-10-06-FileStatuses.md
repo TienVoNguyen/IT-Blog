@@ -1,5 +1,5 @@
 ---
-Title: Các trạng thái file trong git và github
+title: Các trạng thái file trong git và github
 published: true
 ---
 
